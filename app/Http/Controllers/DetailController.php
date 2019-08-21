@@ -71,17 +71,14 @@ class DetailController extends Controller
          }
          else
          {
-            return redirect()->back() ->with('alert', 'SORRY! The sum of calculated percentage is greater than 100 %');
+            echo 'SORRY!!!';
          }
-          
-       
-               
-              
+                      
          
         }
         else
         {
-            return redirect()->back() ->with('alert', 'SORRY! The sum of calculated percentage is greater than 100 %');
+           echo 'SORRY!!!';
 
         }
       

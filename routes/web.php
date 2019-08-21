@@ -45,3 +45,9 @@ Route::get('/show3','DetailController@show');
 Route::get('/edit/{kra_id}','DetailController@edit');
 Route::post('/update/{kra_id}','DetailController@update');
 Route::get('/destroy3/{kra_id}','DetailController@destroy');
+
+
+
+Route::get('/employeefront','EmployeeController@index');
+Route::get('/employeeadd','EmployeeController@store');
+Route::get('/show1','EmployeeController@show');
