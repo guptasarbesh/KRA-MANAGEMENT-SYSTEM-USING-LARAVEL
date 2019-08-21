@@ -84,14 +84,14 @@
                 
  
                     <div class="uk-grid">
-                        <div class="uk-width-1-1">
+                        <!-- <div class="uk-width-1-1">
                             <div class="uk-form-file md-btn md-btn-success">
                               Import File
                                 <input id="form-file" type="file">
                             </div>
                             You can also use
                             <div class="uk-form-file uk-text-primary">text<input id="form-file" type="file"></div>.
-                        </div>
+                        </div> -->
                     </div>
             
 
